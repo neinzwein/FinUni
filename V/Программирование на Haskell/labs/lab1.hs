@@ -4,15 +4,17 @@
 let a = (('a',1),"abc",[1.0])
 2) [(Double,Bool,(String,Integer))]
 -}
+
 a = [(1.0,True,("abc",1))]
 {-:t a-}
+
 {-
 3) ([Integer],[Double],[(Bool,Char)])
 4) [[[(Integer,Bool)]]]
 -}
 b = [[[(1,True)]]]
 {-:t b-}
-{-
+
 5) (((Char,Char),Char),[String])
 6) (([Double],[Bool]),[Integer])
 7) [Integer, (Integer,[Bool])]
@@ -64,4 +66,3 @@ isTriangle a b c = if (((a+b)>c && (a-b)<c) || ((a+c)>b && (a-c)<b) || ((c+b)>a 
 isSorted :: Double -> Double -> Double -> Bool
 
 isSorted a b c = if (a<b && b<c) || (a>b && b>c) then True else False
--}

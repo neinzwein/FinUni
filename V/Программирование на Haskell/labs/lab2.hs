@@ -1,6 +1,6 @@
 {-9-}
 {- -----------1---------- -}
-{- !!!!!!!!!!!!ВТОРОЙ ПУНКТ ВНИЗУ!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+{- !!!!!!!!!!!!ВТОРОЙ ПУНКТ ВНИЗУ!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -}
 {-1-}
 {-Список натуральных чисел.-}
 first :: Integer -> [Integer]
@@ -80,7 +80,7 @@ removeOdd (x:xs) | x == 6 = removeOdd xs  {- [4,6,10]  =)  -}
                  | even x = x : removeOdd xs
                  | otherwise = removeOdd xs
 
-{-
+{- removeOdd
 foo :: [Integer] -> [Integer]
 foo l = helper l [] where
     helper [] a = reverse a

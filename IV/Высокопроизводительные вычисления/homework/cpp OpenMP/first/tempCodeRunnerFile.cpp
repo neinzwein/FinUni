@@ -1,1 +1,0 @@
-setlocale(LC_ALL, "ru");

@@ -1,4 +1,5 @@
 *.exe
+*IV/Высокопроизводительные вычисления/homework/cpp OpenMP/*/*.exe
 *tempCodeRunnerFile.cpp
 *.vscode
 *.ipynb_checkpoints

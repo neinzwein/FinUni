@@ -1,0 +1,6 @@
+ 1 bash hello.sh
+ 2 chmod +x hello.sh
+ 3 hello.sh
+ 4 export PATH=$HOME/bin:$PATH
+ 5 hello.sh
+ 6 history>4.txt

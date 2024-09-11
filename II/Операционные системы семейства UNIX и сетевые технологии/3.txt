@@ -1,0 +1,8 @@
+   1  ps
+   2  ps aux
+   3  ps --help
+   4  ps -f
+   5  ps aux
+   6  ps man
+   7  top
+   8  history > 3.txt

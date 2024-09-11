@@ -1,0 +1,28 @@
+   1   man ls
+   2   man pwd
+   3   man cd
+   4   man mkdir
+   6   man rm
+   7   man cp
+   8   man mv
+   9   man cat
+   10  man man
+   11  ls 
+   12  cd ..
+   13  cat /etc/file
+   14  touch user.txt
+   15  mkdir src
+   16  mv usr.txt /src
+   17  mv usr.txt ./src
+   18  cd src
+   19  cd ..
+   20  cp ./src test
+   21  cp /src /test
+   22  cp ./src ./test
+   23  cp -r ./src ./test
+   24  cd test
+   25  cd ..
+   26  rm src test
+   27  rmdir src test
+   28  rm -rd src test
+   29  history>6.txt

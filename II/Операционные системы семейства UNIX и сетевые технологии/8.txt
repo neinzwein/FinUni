@@ -1,0 +1,78 @@
+    1  shutdown -r now
+    2  sudo apt uprgrade
+    3  sudo apt upgrade
+    4  shutdown -r now
+    5  cd $HOME
+    6  echo $HOME
+    7  cat >f1
+    8  mkdir src dst temp
+    9  ls -l
+   10  cd temp
+   11  pwd
+   12  echo "user" > user.txt
+   13  echo "root" > root.txt
+   14  echo "studio" > studio.txt
+   15  ls
+   16  cat *.txt
+   17  cp *.txt ../src
+   18  ls  ../src/
+   19  cd  ../src/
+   20  pwd
+   21  cat *.txt
+   22  cd ../dst
+   23  ln ../src/user.txt root1
+   24  ln ../src/user.txt user1
+   25  ln ../src/stud.txt stud1
+   26  ls -li ../src
+   27  cd ../src
+   28  rm room.txt
+   29  rm root.txt
+   30  ls
+   31  cd ../dst
+   32  ls -li
+   33  cat root1
+   34  cd ../src
+   35  ln ../dst/root1 root1.txt
+   36  ls -li
+   37  cd
+   38  ln -s src/root1.txt root2
+   39  ln -s src/user.txt user2
+   40  ln -s src/stud.txt stud2
+   41  ls -l *2
+   42  cat *2
+   43  cat root2
+   44  cat stud2
+   45  cat user2
+   46  ls -laR |less
+   47  ls -lar |less
+   48  cat src/user.txt
+   49  ls -lar |less
+   50  ls -liR |less
+   51  cat src/user.txt
+   52  cat dst/user1
+   53  cat user2
+   54  tar -czvf archive.tar.gz src
+   55  mkdir backup
+   56  tar -xzvf  archive.tar.gz -C backup
+   57  ls backup/src/
+   58  find ~ -name "*.txt"
+   59  cd src
+   60  ls
+   61  ls -li
+   62  rm user.txt
+   63  ls -li
+   64  cd ../dst
+   65  ls -li
+   66  cd
+   67  ls -li
+   68  cat user2
+   69  rm -r dst
+   70  mv temp src
+   71  ls -li
+   72  ls -li src
+   73  rm -r src
+   74  ls -li src
+   75  ls -li 
+   76  rm -r *2
+   77  ls -li 
+   78  history>8.txt

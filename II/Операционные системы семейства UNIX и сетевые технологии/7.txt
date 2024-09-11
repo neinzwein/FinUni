@@ -1,0 +1,13 @@
+    1  tty
+    2  pwd
+    3  tty
+    4  pwd
+    5  tty
+    6  pwd
+    7  who
+    8  whoami
+    9  who
+    10  cat /etc/file
+    11  grep --help
+    12  man man
+    13  history>7.txt

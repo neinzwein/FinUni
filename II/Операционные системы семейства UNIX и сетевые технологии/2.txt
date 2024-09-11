@@ -1,0 +1,9 @@
+    1  apt install chromium-browser --dry-run
+    2  apt remove firefox
+    3  apt install firefox --dry-run
+    4  apt remove chromium-browser
+    5  dpkg-query -l
+    6  dpkg-query -l | wc -l
+    7  dpkg -l '*gnome*'
+    8  dpkg -l '*gnome*' | wc -l
+    9  dpkg -L mc

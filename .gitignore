@@ -3,3 +3,4 @@
 tempCodeRunnerFile.cpp
 *.vscode
 *.ipynb_checkpoints
+.Rproj.user
